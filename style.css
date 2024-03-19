@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'IBM'; /* Define a name for your font */
+    src: url('/font.ttf') format('truetype'), /* URL to the font file and its format */
+}
+
+body {
+    font-family: 'IBM', sans-serif;
+    font-size: 16px;
+}
+
+.content {
+    margin: 5px;
+}
+
+.footer {
+    color: rgb(181, 189, 216);
+}
+
+
+.inner-box {
+    padding: 10px;
+}
+
+.box-title {
+    padding: 5px;
+}
+
+.box {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.blue .box-title {
+    background-color: rgb(203, 220, 255);
+    border: 1px solid rgb(119, 137, 226);
+}
+
+.blue.box {
+    background-color: rgb(227, 242, 255);
+    border: 1px solid rgb(101, 146, 224);
+}
+
+.green .box-title {
+    background-color: rgb(178, 241, 205);
+    border: 1px solid rgb(57, 170, 93);
+}
+
+.green.box {
+    background-color: rgb(234, 255, 237);
+    border: 1px solid rgb(38, 173, 70);
+}
+
+.grey .box-title {
+    background-color: rgb(238, 238, 238);
+    border: 1px solid rgb(164, 164, 164);
+}
+
+.grey.box {
+    background-color: rgb(246, 246, 246);
+    border: 1px solid rgb(164, 164, 164);
+}
+
+.red.box {
+    background-color: rgb(255, 231, 236);
+    border: 1px solid rgb(189, 95, 114);
+}
+
+.red .box-title {
+    background-color: rgb(255, 194, 207);
+    border: 1px solid rgb(189, 95, 114);
+}
+
+.box-content {
+    margin-top: 5px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link img {
+    width: 1em; 
+    height: auto;
+    margin-right: 0.5em; 
+}
+
+.link a {
+    display: inline-block; 
+}
+
+.fluid-img {
+    max-width: 100%; 
+}
+
